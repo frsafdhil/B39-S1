@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="assets/images/logo.png">
+        <title>Contact-me</title>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <nav>
+            <div class="left-side">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>    
+            <div class="right-side">
+                <a href="Contact-me.html">Contact Me</a>
+            </div>
+        </nav>
+        <!-- END-NAVBAR -->
+
+        <!-- FORM -->
+        <div class="contact">
+            <h1>GET IN TOUCH</h1>
+
+            <form action="">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Your name..">
+                </div>
+    
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Your email..">
+                </div>
+    
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="text" placeholder="Your number..">
+                </div>
+    
+                <div>
+                    <label for="subject">Subject</label>
+                    <select class="subject" id="subject">
+                        <option hidden selected>Select one</option>
+                        <option value="">Lets Talk</option>
+                        <option value="">Lets Colaboration</option>
+                        <option value="">Lets Create Project</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea class="message" name="" id="message" cols="30" rows="10" placeholder="Your message.."></textarea>
+                </div>
+                <div>
+                    <button class="btn" type="submit" value="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+        <!-- END-FORM -->
+    </body>
+</html>
